@@ -30,10 +30,10 @@ body{
 }
 
 #container #submit{
-background: white;
-padding: 2.5rem 5rem;
-border-radius: 0 0 0.6rem 0.6rem;
-width: 30rem;
+  background: white;
+  padding: 2.5rem 5rem;
+  border-radius: 0 0 0.6rem 0.6rem;
+  width: 30rem;
 }
 #container #submit label{
   font-weight: bold;
@@ -77,8 +77,15 @@ width: 30rem;
   border: none;
   width: 15rem;
   border-radius: 30px;
-  padding: 1.5rem;
+  height: 3rem;
   background: #24245c;
   color: #ebf3fb;
   outline: none;
+}
+
+#container #submit #button-1 button:hover{
+  background: white;
+  outline: #24245c;
+  color: #24245c;
+  border: 2px solid;
 }
