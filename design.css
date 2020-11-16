@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #ebf3fb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+#container{
+  max-width: 50vw;
+}
+
+#container #tool{
+  background: #24245c;
+  color: #ebf3fb;
+  padding: 4rem 3rem 2rem;
+  border-radius: 0.6rem 0.6rem 0 0;
+  width: 30rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#container #submit{
+background: white;
+padding: 2.5rem 5rem;
+border-radius: 0 0 0.6rem 0.6rem;
+width: 30rem;
+}
+#container #submit p{
+  font-weight: bold;
+  font-size: medium;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+#container #submit form input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 20rem;
+}
+#container #submit form select{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 20rem;
+}
+
+#container #submit #button-1{
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 1rem;
+}
+
+#container #submit #button-1 button{
+  border: none;
+  width: 15rem;
+  border-radius: 30px;
+  padding: 1.5rem;
+  background: #24245c;
+  color: #ebf3fb;
+}
