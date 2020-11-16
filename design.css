@@ -35,11 +35,11 @@ padding: 2.5rem 5rem;
 border-radius: 0 0 0.6rem 0.6rem;
 width: 30rem;
 }
-#container #submit p{
+#container #submit label{
   font-weight: bold;
   font-size: medium;
   padding-bottom: 1rem;
-  padding-top: 2rem;
+  margin-top: 2rem;
 }
 
 #container #submit form input{
@@ -48,12 +48,23 @@ width: 30rem;
   border-right: none;
   width: 20rem;
   border-bottom: 0.5px solid;
+  outline: none;
+  padding: 0 0.5rem;
+  height: 2rem;
+  font-size: 0.8rem;
 }
+
+#container #submit .form-control{
+  margin-top: 2rem;
+}
+
 #container #submit form select{
   border-top: none;
   border-right: none;
   border-left: none;
   width: 20rem;
+  outline: none;
+  margin-top: 1rem;
 }
 
 #container #submit #button-1{
@@ -69,4 +80,5 @@ width: 30rem;
   padding: 1.5rem;
   background: #24245c;
   color: #ebf3fb;
+  outline: none;
 }

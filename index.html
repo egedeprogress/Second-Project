@@ -9,20 +9,29 @@
 <body>
   <div id="container">
     <section id="tool"> 
-        <p>Submit a tool</p>
+      <p>Submit a tool</p>
     </section>
     <section id="submit">
-            <form action="">
-            <p>Name</p>  
-            <input type="text" name="Name" id="Name">
-            <p>Link to respond</p>
+      <form action="">
+        <div class="form-control">
+          <label for='Name'> Name </label>
+          <input type="text" name="Name" id="Name">
+        </div>
+        <div class="form-control">
+          <label for="Link to respond">Link to respond<label>
           <input type="url" name="Link to respond" id="Link to respond">
-          <p>Category</p>
-          <select name="Category"></select>
-               </form>
-                <div id="button-1">
-               <button type="submit">Submit</button>
-              </div>
+        </div>
+        <div class="form-control">
+          <label for="Category">Category</label>
+          <select name="Category">
+            <option value="Select a category">Select a Category</option>
+            <option value="Name">Name</option>
+          </select>
+        </div>
+        <div id="button-1">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
     </section>
   </div>
 </body>
